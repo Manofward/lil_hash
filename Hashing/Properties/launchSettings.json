@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Hashing": {
+      "commandName": "Project",
+      "commandLineArgs": "timingattack hallo"
+    }
+  }
+}
