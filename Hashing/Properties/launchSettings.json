@@ -2,7 +2,7 @@
   "profiles": {
     "Hashing": {
       "commandName": "Project",
-      "commandLineArgs": "timingattack hallo"
+      "commandLineArgs": "cust hallo"
     }
   }
 }
