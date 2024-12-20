@@ -15,7 +15,7 @@ namespace Hashing.src
             "abcdefghijklmnopqrstuvwxyz!@#$%^&+()_+-=[]{}|;:,<>?ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
         // Define a method for hashing a password with a salt
-        public string Hash(string input, string salt, int saltinc = 0)
+        public string Hash(string input, string salt, int saltinc = 32)
         {
             // If no salt is provided, generate a new salt
             if (salt == "") salt = Salt(saltinc > 0 ? saltinc : new Random().Next(32, 64));
