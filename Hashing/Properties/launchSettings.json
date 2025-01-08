@@ -1,8 +1,7 @@
 {
   "profiles": {
     "Hashing": {
-      "commandName": "Project",
-      "commandLineArgs": "cust hallo"
+      "commandName": "Project"
     }
   }
 }
