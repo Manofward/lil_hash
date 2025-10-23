@@ -1,6 +1,7 @@
 ﻿// Define an interface for the cust class
-using Hashing.src;
-namespace Hashing.src.interfaces
+
+// Define an interface for the cust class
+namespace Hashing.src.Hasher
 {
     public interface ICust
     {

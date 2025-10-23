@@ -2,10 +2,9 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.IO;
-using Hashing.src.interfaces;
 
 // Define a namespace for the hashing program
-namespace Hashing.src
+namespace Hashing.src.FileWriter
 {
     // Define a public static class for file writing and reading
     public class FileWriter : IFileWriter

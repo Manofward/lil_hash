@@ -1,6 +1,4 @@
-﻿using Hashing.src;
-
-namespace Hashing.src.interfaces
+﻿namespace Hashing.src.TimingAttack
 {
     public interface ITimingAttack
     {

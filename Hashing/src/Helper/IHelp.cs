@@ -1,7 +1,7 @@
 ﻿// Define an interface for the help class
-using Hashing.src;
 
-namespace Hashing.src.interfaces
+// Define an interface for the help class
+namespace Hashing.src.Helper
 {
     public interface IHelp
     {

@@ -1,6 +1,4 @@
-﻿using Hashing.src;
-
-namespace Hashing.src.interfaces
+﻿namespace Hashing.src.FileWriter
 {
     public interface IFileWriter
     {

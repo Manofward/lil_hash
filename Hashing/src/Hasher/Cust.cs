@@ -2,10 +2,9 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.IO;
-using Hashing.src.interfaces;
 
 // Define a namespace for the hashing program
-namespace Hashing.src
+namespace Hashing.src.Hasher
 {
     // Define a public static class for the program
     public  class Cust : ICust

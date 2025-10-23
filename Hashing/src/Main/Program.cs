@@ -3,10 +3,8 @@ using System.Configuration;
 using System.ComponentModel.Design;
 using System.IO;
 using System.Diagnostics;
-using Hashing.src.interfaces;
-using Hashing.src.command;
 
-namespace Hashing.src
+namespace Hashing.src.Main
 {
     public static class Program
     {

@@ -5,11 +5,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hashing.src;
-using Hashing.src.interfaces;
+using Hashing.src.Hasher;
+using Hashing.src.Settings;
 
 
-namespace Hashing.src.Attacks
+namespace Hashing.src.TimingAttack
 {
     public class TimingAttack : ITimingAttack 
     {
@@ -20,7 +20,7 @@ namespace Hashing.src.Attacks
         public TimingAttack()
         {
             _cust = new Cust();
-            _settings = new Settings();
+            _settings = new Settings.Settings();
         }
 
         public string RecoverPassword(string input)

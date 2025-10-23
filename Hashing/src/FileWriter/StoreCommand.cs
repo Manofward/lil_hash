@@ -1,7 +1,6 @@
-﻿using Hashing.src;
-using Hashing.src.interfaces;
+﻿using Hashing.src.Main;
 
-namespace Hashing.src.command
+namespace Hashing.src.FileWriter
 {
     public class StoreCommand : ICommand
     {

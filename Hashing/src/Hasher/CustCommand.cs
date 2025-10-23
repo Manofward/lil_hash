@@ -1,7 +1,7 @@
-﻿using Hashing.src;
-using Hashing.src.interfaces;
+﻿using Hashing.src.Settings;
+using Hashing.src.Main;
 
-namespace Hashing.src.command
+namespace Hashing.src.Hasher
 {
     public class CustCommand : ICommand
     {
@@ -10,7 +10,7 @@ namespace Hashing.src.command
         public CustCommand()
         {
             _cust = new Cust();
-            _settings = new Settings();
+            _settings = new Settings.Settings();
         }
 
         public void Execute(string[] args)

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Configuration;
-using Hashing.src;
-using Hashing.src.interfaces;
 
-namespace Hashing.src
+namespace Hashing.src.Settings
 {
     public class Settings : ISettings
     {

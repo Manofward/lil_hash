@@ -4,9 +4,8 @@ using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
-using Hashing.src.interfaces;
 
-namespace Hashing.src
+namespace Hashing.src.Helper
 {
     class HelpC : IHelp
     {

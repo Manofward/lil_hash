@@ -46,13 +46,9 @@
     <None Update="docs\HelpOut\Help-verify.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="src\config\app.config">
+    <None Update="src\Settings\app.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="src\utility\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,5 +1,5 @@
 ﻿// not used in the current build
-namespace Hashing.src.interfaces
+namespace Hashing.src.Settings
 {
     public interface ISettings
     {

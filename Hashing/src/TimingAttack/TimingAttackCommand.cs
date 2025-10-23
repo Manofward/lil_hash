@@ -1,8 +1,6 @@
-﻿using Hashing.src.Attacks;
-using Hashing.src.interfaces;
-using Hashing.src;
+﻿using Hashing.src.Main;
 
-namespace Hashing.src.command
+namespace Hashing.src.TimingAttack
 {
     public class TimingAttackCommand : ICommand
     {

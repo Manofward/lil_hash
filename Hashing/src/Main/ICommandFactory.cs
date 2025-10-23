@@ -1,4 +1,4 @@
-﻿namespace Hashing.src.interfaces 
+﻿namespace Hashing.src.Main 
 {
     public interface ICommandFactory
     {

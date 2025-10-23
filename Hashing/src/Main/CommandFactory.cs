@@ -1,7 +1,9 @@
-﻿using Hashing.src;
-using Hashing.src.interfaces;
+﻿using Hashing.src.FileWriter;
+using Hashing.src.Hasher;
+using Hashing.src.Helper;
+using Hashing.src.TimingAttack;
 
-namespace Hashing.src.command
+namespace Hashing.src.Main
 {
     public class CommandFactory : ICommandFactory
     {
