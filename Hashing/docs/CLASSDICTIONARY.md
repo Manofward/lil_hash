@@ -12,42 +12,52 @@ Also it contains all Folder names with what they have inside.
 1. ### src
 	Here are all code Files saved
     
-1. 1. #### interface
-		Here are the interfaces for the classes
-1. 2. #### command
-	    Here are the files for the navigation between the mian programm features and the interfaces
-1. 3. #### config
-		Here are the Configuration Files Saved 
+1. 1. #### FileWriter
+        Here are the files for the File Writing and Loading from the shadow.txt file
+1. 2. #### Hasher
+	    Here are the files for the Hashing and Salting of the passwords
+1. 3. #### Helper
+	    This folder contains the source Code for the Help Command
+1. 4. #### Settings
+        Here is the source code for the Settings management
+1. 5. #### Main
+        This folder contains the main Program.cs file and the Application class
+1. 6. #### TimingAttack
+        Here is the source code for the Timing Attack implementation
 
 -----------------------
 
 ## Namespaces
-1. ### Hashing.src
-	* **Cust.cs**
-	* **HelpC.cs**
+1. ### Hashing.src.FileWriter
 	* **FileWriter.cs**
-	* **Program.cs**
-	* **Settings.cs**
-	
-2. ### Hashing.src.command
-	* **CommandFactory.cs**
-	* **CustCommand.cs**
-	* **HelpCommand.cs**
+	* **IFileWriter.cs**
 	* **StoreCommand.cs**
 	* **VerifyCommand.cs**
-	* **TimingAttackCommand.cs**
 
-3. ### Hashing.src.interfaces
-	* **ICommand.cs**
-	* **ICommandFactory.cs**
+2. ### Hashing.src.Hasher
+	* **Cust.cs**
+	* **CustCommand.cs**
 	* **ICust.cs**
-	* **IFileWriter.cs**
-	* **IHelp.cs**
-	* **ISettings.cs**
-	* **ITimingAttack.cs
 
-4. ### Hashing.src.Attacks
-	* **TimingAttack.cs**
+3. ### Hashing.src.Helper
+	* **HelpC.cs**
+    * **HelpCommand.cs**
+    * **IHelp.cs**
+    
+4. ### Hashing.src.Main
+    * **CommandFactory.cs**
+    * **ICommand.cs**
+    * **ICommandFactory.cs**
+    * **Program.cs**
+
+5. ### Hashing.src.Settings
+    * **ISettings.cs**
+    * **Settings.cs**
+
+6. ### Hashing.src.TimingAttack
+    * **ITimingAttack.cs**
+    * **TimingAttack.cs**
+    * **TimingAttackCommand.cs**
 
 --------
 

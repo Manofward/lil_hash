@@ -24,9 +24,12 @@ This program is a simple hashing algorithm designed to be accessed through the t
 
 ### Folders
 1. **src**: Has the Code Files saved that are compiled
-    1. 1. **command**: Has the navigation files of the program
-    1. 2. **interface**: Has the interface Files
-    1. 3. **config**: has the configuration Files of the program
+    1. 1. **FileWriter**: Has the Files important for file Usage of the commands
+    1. 2. **Hasher**: Has the Hashing Logic saved
+    1. 3. **Helper**: Has the source code for the help file Usage
+    1. 4. **Main**: Has the main program code saved
+    1. 5. **Settings**: Has the Settings code saved
+    1. 6. **TimingAttack**: Has the Timing Attack code saved
 2. **docs**: Has the Help Files contained 
 3. **bin**: has the release build saved
 
@@ -96,7 +99,7 @@ The Timing Attack works with a input thats hashed and looks for the value you in
 * The program uses the `args` array to parse the command-line arguments.
 
 ## Factory design pattern
-We use the Factory design Pattern to structure the Project with `interface` Files the Programm creates Object in the files to use for example the **Cust** File.
+The project uses the Factory design pattern: **Programm.cs** asks a CommandFactory for an implementation of a command `interface` and receives a concrete command (for example **Cust**) to execute.
 
 
 
