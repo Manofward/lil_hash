@@ -541,4 +541,9 @@ Also it contains all Folder names with what they have inside.
     ```
     Here is the code for the attack which is more like a brute force attack because it test different passwords until a hashed password is the same as the input password.
 
+_____
+
+## Below is a Picture of a Class Diagram from this Project
+![t](UML/UMLClassDiagram.png)
+
 **THIS FILE HAS TO BE UPDATE WHEN AN NEW FILE WITH NEW CLASSES IS CREATED OR A NEW FUNCTION HAS BEEN CREATED**
