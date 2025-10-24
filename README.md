@@ -114,6 +114,7 @@ The project uses the Factory design pattern: **Programm.cs** asks a CommandFacto
 
 
 ## Important Notes
-> it does already give for Windows and Linux a fully Compiled Program.
+> It does already give for Windows and Linux a fully Compiled Program.  
+> For the UML Diagram Umbrello was used.  
 
 **DO NOT USE THIS ALGORITHM FOR PRODUCTION USE. IT'S ONLY FOR FUN.**
