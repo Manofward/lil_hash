@@ -1,4 +1,5 @@
-﻿using Hashing.src.Settings;
+﻿// adding the new namespaces
+using Hashing.src.Settings;
 using Hashing.src.Main;
 
 namespace Hashing.src.Hasher
@@ -10,7 +11,7 @@ namespace Hashing.src.Hasher
         public CustCommand()
         {
             _cust = new Cust();
-            _settings = new Settings.Settings();
+            _settings = new Settings.Settings(); // the usage here is now because of the new namespaces
         }
 
         public void Execute(string[] args)

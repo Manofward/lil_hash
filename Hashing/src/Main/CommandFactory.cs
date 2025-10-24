@@ -1,4 +1,5 @@
-﻿using Hashing.src.FileWriter;
+﻿// added the now updated namespaces
+using Hashing.src.FileWriter;
 using Hashing.src.Hasher;
 using Hashing.src.Helper;
 using Hashing.src.TimingAttack;

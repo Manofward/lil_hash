@@ -1,9 +1,4 @@
-﻿// Import necessary namespaces for security, text, and file operations
-using System.Security.Cryptography;
-using System.Text;
-using System.IO;
-
-// Define a namespace for the hashing program
+﻿// Updated namespace for the filewriting functionality
 namespace Hashing.src.FileWriter
 {
     // Define a public static class for file writing and reading

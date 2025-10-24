@@ -1,13 +1,12 @@
 ﻿// Import necessary namespaces for security, text, and file operations
 using System.Security.Cryptography;
 using System.Text;
-using System.IO;
 
 // Define a namespace for the hashing program
 namespace Hashing.src.Hasher
 {
     // Define a public static class for the program
-    public  class Cust : ICust
+    public class Cust : ICust
     {
         // Define a constant string containing a set of characters to use for hashing
         const string chars = 

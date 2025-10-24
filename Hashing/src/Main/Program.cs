@@ -1,10 +1,4 @@
-﻿using System;
-using System.Configuration;
-using System.ComponentModel.Design;
-using System.IO;
-using System.Diagnostics;
-
-namespace Hashing.src.Main
+﻿namespace Hashing.src.Main
 {
     public static class Program
     {

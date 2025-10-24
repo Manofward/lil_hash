@@ -1,4 +1,4 @@
-﻿using Hashing.src.Main;
+﻿using Hashing.src.Main; // needed since the ICommand is now in the Main namespace
 
 namespace Hashing.src.Helper
 {

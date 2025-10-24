@@ -1,4 +1,4 @@
-﻿using Hashing.src.Main;
+﻿using Hashing.src.Main; // adding the updated namespace
 
 namespace Hashing.src.FileWriter
 {

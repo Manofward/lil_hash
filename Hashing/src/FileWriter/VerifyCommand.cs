@@ -1,4 +1,5 @@
-﻿using Hashing.src.Hasher;
+﻿// defining the updated namespaces
+using Hashing.src.Hasher;
 using Hashing.src.Main;
 
 namespace Hashing.src.FileWriter

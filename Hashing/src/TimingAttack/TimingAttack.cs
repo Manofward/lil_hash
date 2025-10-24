@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Text;
-using System.Threading.Tasks;
 using Hashing.src.Hasher;
 using Hashing.src.Settings;
 
@@ -20,7 +15,7 @@ namespace Hashing.src.TimingAttack
         public TimingAttack()
         {
             _cust = new Cust();
-            _settings = new Settings.Settings();
+            _settings = new Settings.Settings(); // needed To be changed becaus of the new Feature namespaces
         }
 
         public string RecoverPassword(string input)
