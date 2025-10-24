@@ -29,35 +29,35 @@ Also it contains all Folder names with what they have inside.
 
 ## Namespaces
 1. ### Hashing.src.FileWriter
-	* **FileWriter.cs**
-	* **IFileWriter.cs**
-	* **StoreCommand.cs**
-	* **VerifyCommand.cs**
+	* [**FileWriter.cs**](#filewritercs)
+	* [**IFileWriter.cs**](#ifilewritercs)
+	* [**StoreCommand.cs**](#storecommandcs)
+	* [**VerifyCommand.cs**](#verifycommandcs)
 
 2. ### Hashing.src.Hasher
-	* **Cust.cs**
-	* **CustCommand.cs**
-	* **ICust.cs**
+	* [**Cust.cs**](#custcs)
+	* [**CustCommand.cs**](#custcommandcs)
+	* [**ICust.cs**](#icustcs)
 
 3. ### Hashing.src.Helper
-	* **HelpC.cs**
-    * **HelpCommand.cs**
-    * **IHelp.cs**
+	* [**HelpC.cs**](#helpccs)
+    * [**HelpCommand.cs**](#helpcommandcs)
+    * [**IHelp.cs**](#ihelpcs)
     
 4. ### Hashing.src.Main
-    * **CommandFactory.cs**
-    * **ICommand.cs**
-    * **ICommandFactory.cs**
-    * **Program.cs**
+    * [**CommandFactory.cs**](#commandfactorycs)
+    * [**ICommand.cs**](#icommandcs)
+    * [**ICommandFactory.cs**](#icommandfactorycs)
+    * [**Program.cs**](#programcs)
 
 5. ### Hashing.src.Settings
-    * **ISettings.cs**
-    * **Settings.cs**
+    * [**ISettings.cs**](#isettingscs)
+    * [**Settings.cs**](#settingscs)
 
 6. ### Hashing.src.TimingAttack
-    * **ITimingAttack.cs**
-    * **TimingAttack.cs**
-    * **TimingAttackCommand.cs**
+    * [**ITimingAttack.cs**](#itimingattackcs)
+    * [**TimingAttack.cs**](#timingattackcs)
+    * [**TimingAttackCommand.cs**](#timingattackcommandcs)
 
 --------
 
@@ -67,7 +67,7 @@ Also it contains all Folder names with what they have inside.
 	#### 1.1 Program
 	> This class runs the whole programm
 	
-	```cs
+	```cs Program
 	public static class Program
     {
         public static void Main(string[] args)
@@ -82,7 +82,7 @@ Also it contains all Folder names with what they have inside.
 	#### 1.2 Application
 	> this class initializes the everthing inside of the programm file and has the **"Run"** Function
 
-	```cs
+	```cs Application
 	public class Application 
     {
         private readonly ICommandFactory _commandFactory;
@@ -120,7 +120,7 @@ Also it contains all Folder names with what they have inside.
 	> This class has the Functions **"Hash"**, **"Salt"** and **"Verify"** inside of them
 
 	The code below has the Hash Funktion
-	```cs 
+	```cs  
 	public string Hash(string input, string salt, int saltinc = 0)
         {
             // If no salt is provided, generate a new salt
@@ -251,7 +251,8 @@ Also it contains all Folder names with what they have inside.
 	```
 
     At first we do give the Help Function the parameter from the **Program.cs** Run function.
-    Which is queried if it has nothing in it.    If it has something in it the ShowHelp function will be used and if nothing is in it then the normal help message is shown.
+    Which is queried if it has nothing in it.
+    If it has something in it the ShowHelp function will be used and if nothing is in it then the normal help message is shown.
     
     ---
     The ShowHelp function is shown if the command variable has a command in it.
@@ -299,7 +300,7 @@ Also it contains all Folder names with what they have inside.
 	> this class executes in the end the function **"Verify"** from *Cust.cs*
 
     The VerifyCommand class uses the ICommand interface to create one Object which will be executed by the **Program.cs**.
-    ```cs
+    ```cs VerifyCommand
         private readonly IFileWriter _fileWriter;
         private readonly ICust _cust;
 
@@ -334,13 +335,13 @@ Also it contains all Folder names with what they have inside.
 8. ### CustCommand.cs
 	> this class uses the hashing functions from *Cust.cs*
 
-    ```cs
+    ```cs CustCommand
         private readonly ICust _cust;
         private readonly ISettings _settings;
         public CustCommand()
         {
             _cust = new Cust();
-            _settings = new Settings();
+            _settings = new Settings.Settings();
         }
 
         public void Execute(string[] args)
@@ -476,7 +477,7 @@ Also it contains all Folder names with what they have inside.
         public TimingAttack()
         {
             _cust = new Cust();
-            _settings = new Settings();
+            _settings = new Settings.Settings();
         }
 
         public string RecoverPassword(string input)
